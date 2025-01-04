@@ -1,0 +1,43 @@
+#comment_reply_page {
+  height: 100%;
+  width: 100%;
+  padding: 5% 7%;
+  background-color: #e5ebee;
+  box-sizing: border-box;
+  font-size: 2rem;
+}
+.comment_reply_form {
+  justify-content: center;
+}
+
+#target_text {
+  width: 85rem;
+  font-size: 2rem;
+  background-color: #96c9f4;
+  color: #ebf4f6;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.new_comment_body {
+  width: 85rem;
+  height: 20rem;
+  border-radius: 1rem;
+  border-width: 1px;
+  font-size: 1.75rem;
+  text-align: top;
+  resize: none;
+  margin-top: 1rem;
+}
+
+.comment_reply_form .replier_info {
+  width: 23rem;
+  justify-content: space-between;
+  height: 7rem;
+  align-items: center;
+}
+
+.respond_btn {
+  width: 15rem;
+  margin-left: 70rem;
+}

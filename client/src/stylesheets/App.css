@@ -1,0 +1,390 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* ===================================Reset CSS================================ */
+* {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  border-radius: 1rem;
+  font-family: "Oswald", sans-serif;
+  background-color: #e5ebee;
+  border: 1px solid black;
+  padding: 1.25rem;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Oswald", sans-serif;
+  box-sizing: border-box;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+}
+
+#phreddit_logo {
+  color: #ff4500;
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+#phreddit_logo:hover {
+  cursor: pointer;
+}
+
+.banner {
+  justify-content: space-between;
+  align-items: center;
+  height: 15vh;
+  padding: 0 10rem;
+}
+
+#banner_search_input {
+  width: 60rem;
+  border-radius: 5rem;
+  height: 5rem;
+  padding-left: 2rem;
+  font-size: 2rem;
+  border-width: 0px;
+  background-color: #e5ebee;
+}
+
+#banner_createpost_btn {
+  border-radius: 1rem;
+  padding: 1rem;
+  text-align: center;
+  border-width: 0;
+  font-size: 2rem;
+}
+
+.phreddit {
+  width: 100vw;
+  height: 100vh;
+}
+
+.phreddit_theme {
+  background-color: #e5ebee;
+  transition: 1s ease-in-out;
+}
+
+.phreddit_theme.focus_btn {
+  background-color: #ff4500;
+  transition: 1s ease-in-out;
+  color: #ffffff;
+}
+
+.phreddit_theme:hover {
+  background-color: #ff4500;
+  transition: 1s ease-in-out;
+  color: #ffffff;
+}
+.main_contents_container {
+  height: 85vh;
+  width: 100%;
+  box-sizing: border-box;
+  border-top: 1px solid black;
+}
+
+.main_contents {
+  width: 80%;
+  border-left: 1px solid black;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  background-color: #eef7ff;
+}
+
+.main_content_nav {
+  height: 100%;
+  width: 20%;
+}
+
+.nav_link_home {
+  justify-content: center;
+  align-items: center;
+  margin: 2rem auto;
+  font-size: 2.5rem;
+  color: black;
+  width: 12rem;
+  height: 5rem;
+  border-radius: 1rem;
+}
+.nav_communities_session_container {
+  justify-content: space-between;
+  align-items: center;
+}
+.nav_communities_session {
+  border-top: 1px solid #000;
+  padding-top: 2rem;
+  margin-left: 4%;
+  font-size: 2.5rem;
+  color: #686d76;
+  width: 80%;
+}
+.nav_create_commnity_btn {
+  border-width: 0;
+  margin: 2rem;
+  font-size: 2rem;
+}
+
+#community_name_btn_container {
+  height: 50vh;
+  width: 80%;
+  padding: 2rem 2rem;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  background-color: #c4e1f6;
+  border-radius: 1rem;
+}
+
+.community_name_btn {
+  margin: 1rem 0;
+  border-radius: 1rem;
+  background-color: #ffffff;
+  color: #378ce7;
+  transition: 0.5s ease-in-out;
+  padding: 1rem;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.community_name_btn:hover {
+  background-color: #378ce7;
+  transition: 0.5s ease-in-out;
+  padding: 2rem;
+  color: #ffffff;
+  box-shadow: #000000;
+}
+
+#nav_delimiter {
+  width: 10%;
+  margin: 0rem auto 2rem;
+}
+.time_stamp {
+  color: #686d76;
+  font-size: 1.1rem;
+  margin-left: 1rem;
+}
+
+.focus_community_btn {
+  background-color: #378ce7;
+  color: #ffffff;
+  padding: 2rem;
+}
+
+.visible {
+  visibility: visible;
+}
+
+.hide {
+  visibility: hidden;
+}
+
+@media only screen and (max-width: 1100px) {
+  .banner {
+    padding: 0 5rem;
+  }
+  #phreddit_logo {
+    font-size: 2.75rem;
+  }
+  #banner_createpost_btn {
+    text-align: center;
+    border-width: 0;
+    font-size: 1.75rem;
+  }
+  #banner_search_input {
+    width: 50rem;
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-height: 700px) {
+  .nav_link_home {
+    padding: 0.5rem;
+    font-size: 2rem;
+  }
+  .nav_communities_session_container {
+    padding: 0.5rem;
+  }
+  .nav_communities_session {
+    font-size: 2rem;
+  }
+  .nav_create_commnity_btn {
+    font-size: 1.5rem;
+  }
+  #community_name_btn_container {
+    height: 45vh;
+    width: 80%;
+    padding: 2rem 1rem;
+  }
+}
+
+@media only screen and (max-height: 600px) {
+  .nav_link_home {
+    width: 7rem;
+    height: 3rem;
+    padding: 0.5rem 1rem;
+    font-size: 1.5rem;
+  }
+  .nav_communities_session_container {
+    padding: 0rem;
+  }
+  .nav_communities_session {
+    font-size: 2rem;
+  }
+  .nav_create_commnity_btn {
+    font-size: 1.2rem;
+  }
+  #community_name_btn_container {
+    height: 40vh;
+    width: 80%;
+    padding: 0.5rem 1rem;
+  }
+
+  .community_name_btn {
+    font-size: 1.25rem;
+    margin: 0.25rem 0;
+  }
+}
+.goBackBtn {
+  width: 3rem;
+  height: 3rem;
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+
+/* ============================ Everything css inside banner, navbar and MainConten ========== */

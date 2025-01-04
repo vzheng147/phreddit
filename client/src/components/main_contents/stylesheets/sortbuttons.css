@@ -1,0 +1,32 @@
+.sort_btn_container {
+  width: 30%;
+  justify-content: space-around;
+  height: 5rem;
+}
+.sort_btn {
+  width: 7rem;
+  transition: 1s ease-in-out;
+}
+.focus_sort {
+  transition: 0.5s ease-in-out;
+  background-color: #1e201e;
+  width: 10rem;
+  color: #ffffff;
+}
+.sort_btn.focus_sort {
+  width: 10rem;
+}
+.sort_btn:hover {
+  background-color: #1e201e;
+  transition: 0.5s ease-in-out;
+  color: #f3f8ff;
+  width: 10rem;
+}
+
+@media only screen and (max-width: 1300px) {
+  .sort_btn_container {
+    width: 35%;
+    justify-content: space-around;
+    height: 5rem;
+  }
+}

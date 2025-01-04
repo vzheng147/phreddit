@@ -1,0 +1,109 @@
+.new_community_form {
+  height: 100%;
+  width: 100%;
+  padding: 7% 10%;
+  background-color: #eef7ff;
+  box-sizing: border-box;
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+textarea {
+  resize: none;
+}
+
+.new_community_form input,
+.new_community_form textarea {
+  margin: 1rem 0;
+  padding-left: 0.25rem;
+  font-size: 2rem;
+  border-radius: 1rem;
+  border-width: 0;
+  padding: 1rem;
+}
+
+.new_community_form label {
+  margin: 2rem, 0;
+}
+
+.new_community_form button {
+  width: 15%;
+  margin-left: 85%;
+  margin-top: 5rem;
+  transition: 1s ease-in-out;
+}
+.new_community_form button:hover {
+  background-color: #77cdff;
+  transition: 1s ease-in-out;
+  color: #ffffff;
+}
+
+.new_community_user_input {
+  width: 25%;
+  height: 4rem;
+}
+
+#new_community_description_input {
+  height: 20rem;
+}
+
+p {
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+
+@media only screen and (max-width: 1200px) {
+  .new_community_form button {
+    width: 20%;
+    margin-left: 80%;
+    margin-top: 2rem;
+  }
+  #new_community_description_input {
+    height: 15rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .new_community_form button {
+    width: 40%;
+    font-size: 1.25rem;
+    margin-left: 60%;
+    margin-top: 2rem;
+  }
+  #new_community_description_input {
+    height: 15rem;
+  }
+}
+
+@media only screen and (max-height: 800px) {
+  .new_community_form button {
+    width: 40%;
+    font-size: 1.25rem;
+    margin-left: 60%;
+    margin-top: 1rem;
+  }
+  #new_community_description_input {
+    height: 10rem;
+  }
+  h2 {
+    font-size: 2.5rem;
+  }
+  .new_community_form input,
+  .new_community_form textarea {
+    margin: 0.5rem 0;
+    font-size: 1.5rem;
+  }
+  .new_community_form {
+    padding: 5% 10%;
+    background-color: #e5ebee;
+    box-sizing: border-box;
+    font-size: 2rem;
+  }
+  .new_community_user_input {
+    width: 25%;
+    height: 3rem;
+  }
+}

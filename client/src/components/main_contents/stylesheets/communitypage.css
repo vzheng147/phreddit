@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+.community_sub_head {
+  flex-wrap: wrap;
+  font-size: 3rem;
+  width: 88%;
+  margin-bottom: 1rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+.community_sort_btns {
+  justify-content: space-between;
+  font-size: 3rem;
+  width: 88%;
+  align-items: center;
+}
+.community_description,
+.community_create {
+  width: 88%;
+  font-size: 2rem;
+}
+
+h3 {
+  text-align: center;
+}
