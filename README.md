@@ -1,16 +1,14 @@
 
-# Live Demo
+# Live Demo:
 
 Watch a live demo here: YouTube Video (Placeholder)
 
-# Instructions for Running the Project locally
-
-Follow these steps to set up and run Phreddit on your local machine:
+# Set up and run Phreddit on your local machine:
 
 ### Prerequisites - Ensure the following are installed on your system:
 - **MongoDB** (Database)
 - **MongoDB Shell** (mongosh) (For database interaction)
-- **Node.js** (Runtime environment, which includes npm)
+- **Node.js** (Runtime environment)
 
 ---
 
