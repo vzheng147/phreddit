@@ -22,7 +22,7 @@ Watch a live demo here: YouTube Video (Placeholder)
 1. Open a terminal
 2. Enter `cd server`
 3. Enter `npm install`
-4. Enter `node initializeDB.js mongodb://127.0.0.1:27017`
+4. Enter `node initializeDB.js mongodb://127.0.0.1:27017/phreddit`
 5. Enter `node server.js`
 
 #### 3. Set up and start the Client
