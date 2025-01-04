@@ -1,7 +1,7 @@
 
 # Live Demo:
 
-Watch a live demo here: YouTube Video (Placeholder)
+Watch a live demo here: [YouTube Video](https://www.youtube.com/watch?v=wyv9WTmgrJA&t=7s)
 
 # Set up and run Phreddit on your local machine:
 
